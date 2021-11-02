@@ -25,7 +25,6 @@ const useStyles = makeStyles((theme) => ({
             theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
     },
     call: {
-        color: '#483D8B',
         fontSize: 'x-large',
         fontWeight: 'bold',
     },

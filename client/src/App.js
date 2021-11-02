@@ -9,15 +9,10 @@ import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { mergeClasses, withStyles } from '@material-ui/styles';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-// import { ClassNames } from '@emotion/react';
+
 import Footer from './components/Footer';
+import Header from './components/Header';
+import { fontWeight } from '@mui/system';
 
 const styles = theme => ({
   root: {
@@ -57,27 +52,9 @@ class App extends Component {
   render() {
     return (
       <>
-        <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
-            <Toolbar>
-              <IconButton
-                size="large"
-                edge="start"
-                color="inherit"
-                aria-label="menu"
-                sx={{ mr: 2 }}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                진학사 샘플 페이지
-              </Typography>
-              <Button color="inherit">리포트툴로 보기</Button>
-            </Toolbar>
-          </AppBar>
-        </Box>
-
-        <Paper>
+        <Header />
+        <center><p style={{fontWeight: "bold", marginTop: "3%"}}>[ 진학어플라이 개발부 솔루션 사업팀 인턴 명단 ]</p></center>
+        <Paper style={{width: "70%", marginLeft: "15%", marginTop: "3%"}}>
           <Table>
             <TableHead>
               <TableRow>
