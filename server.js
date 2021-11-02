@@ -19,18 +19,18 @@ app.get('/api/customers', (req, res) => {
           {
             'id': 2,
             'image': 'https://placeimg.com/64/64/any',
-            'name': '이예안',
-            'birthday': '990830',
+            'name': '송도진',
+            'birthday': '960228',
             'gender': '여자',
-            'job': '대학생'
+            'job': '운동선수'
           },
           {
             'id': 3,
             'image': 'https://placeimg.com/64/64/any',
-            'name': '박정우',
-            'birthday': '970409',
+            'name': '김원기',
+            'birthday': '970721',
             'gender': '남자',
-            'job': '대학생'
+            'job': '개발자'
           }
     ])
 })
