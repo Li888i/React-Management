@@ -9,7 +9,6 @@ import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import { mergeClasses, withStyles } from '@material-ui/styles';
-
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -18,7 +17,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 // import { ClassNames } from '@emotion/react';
-
+import Footer from './components/Footer';
 
 const styles = theme => ({
   root: {
@@ -105,6 +104,7 @@ class App extends Component {
             </TableBody>
           </Table>
         </Paper>
+        <Footer />
       </>
     );
   }
