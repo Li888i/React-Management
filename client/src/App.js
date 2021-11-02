@@ -17,20 +17,16 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { ClassNames } from '@emotion/react';
+// import { ClassNames } from '@emotion/react';
 
 
 const styles = theme => ({
   root: {
     width: '100%',
-    marginTop: theme.spacing.unit * 3,
     overflowX: "auto"
   },
   table: {
     minWidth: 1000
-  },
-  progress: {
-    margin: theme.spacing.unit * 2
   },
 })
 
@@ -114,4 +110,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withStyles(styles)(App);
