@@ -21,8 +21,9 @@ export default function Header() {
                     >
                         <MenuIcon />
                     </IconButton>
+                    <img src="https://i.ibb.co/s2kxZRs/removebg-preview.png" width="120" height="40" />
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        진학사 샘플 페이지
+                        &nbsp;&nbsp;샘플 페이지
                     </Typography>
                     <Button color="inherit">리포트툴로 보기</Button>
                 </Toolbar>

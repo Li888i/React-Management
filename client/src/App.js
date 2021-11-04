@@ -12,7 +12,6 @@ import { mergeClasses, withStyles } from '@material-ui/styles';
 
 import Footer from './components/Footer';
 import Header from './components/Header';
-import { fontWeight } from '@mui/system';
 
 const styles = theme => ({
   root: {
@@ -53,8 +52,8 @@ class App extends Component {
     return (
       <>
         <Header />
-        <center><p style={{fontWeight: "bold", marginTop: "3%"}}>[ 진학어플라이 개발부 솔루션 사업팀 인턴 명단 ]</p></center>
-        <Paper style={{width: "70%", marginLeft: "15%", marginTop: "3%"}}>
+        <center><p style={{fontWeight: "bold", marginTop: "2%"}}>[ 진학어플라이 개발부 솔루션 사업팀 인턴 명단 ]</p></center>
+        <Paper style={{width: "60%", marginLeft: "20%", marginTop: "2%", border: "solid 0.5px"}}>
           <Table>
             <TableHead>
               <TableRow>
