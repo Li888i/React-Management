@@ -21,7 +21,7 @@ export default function Header() {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <img src="https://i.ibb.co/s2kxZRs/removebg-preview.png" width="120" height="40" />
+                    <img src="https://i.ibb.co/s2kxZRs/removebg-preview.png" alt="jinhak" width="120" height="40" />
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         &nbsp;&nbsp;샘플 페이지
                     </Typography>

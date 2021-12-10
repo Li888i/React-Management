@@ -86,10 +86,10 @@ export default function Footer() {
                             (점심시간 12:20 - 13:30 제외 · 주말/공휴일 제외)
                         </p>
                         <Button variant="contained" size="medium" color="primary" className={classes.margin}>
-                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-appstore.svg" />APP STORE
+                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-appstore.svg" alt="app" />APP STORE
                         </Button>
                         <Button variant="contained" size="medium" color="primary" className={classes.margin}>
-                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-palystore.svg" />PLAY STORE
+                            <img src="https://assets.cdn.soomgo.com/icons/icon-download-palystore.svg" alt="play" />PLAY STORE
                         </Button>
                     </div>
 
